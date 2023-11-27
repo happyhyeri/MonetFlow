@@ -19,7 +19,7 @@ public class DummyController extends HttpServlet {
 	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
 		String[] desc = new String[] {};
 		SpendLogProcessor dao = new SpendLogProcessor();
-		Random r = new Random();
+		Random r = new Random();//
 		try {
 			for (int cnt = 1; cnt <= 30; cnt++) {
 
