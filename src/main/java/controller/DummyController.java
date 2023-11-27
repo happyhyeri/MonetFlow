@@ -27,7 +27,7 @@ public class DummyController extends HttpServlet {
 				log.setUserId("totoro");
 				log.setAmt(r.nextInt(1, 200) * 500);
 				log.setCategoryId(r.nextInt(1, 14));
-				int month = r.nextInt(1, 12);
+				int month = r.nextInt(1, 12);//
 				int day = r.nextInt(1, 30);
 				String dateStr = "2023-" + 
 						String.format("%02d", month) + "-" + String.format("%02d", day);
