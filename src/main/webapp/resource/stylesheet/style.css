@@ -1,0 +1,315 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap');
+
+* {
+	font-family: 'Sunflower', sans-serif;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 40pt;
+	color: #F1F0E8
+}
+
+h2 {
+	font-size: 30pt;
+	color: #F1F0E8
+}
+
+h3 {
+	font-size: 20pt;
+	color: #F1F0E8
+}
+
+h1,h2,h3 {
+	text-align: center;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none; 
+}
+
+body {
+	padding: 50px;
+	text-align: center;
+	color: #BDC7C9;
+	margin: 0px;
+	line-height: 1.6;
+	font-family: 'Sunflower', sans-serif;
+
+	background-color: #5C7893;
+	box-sizing: border-box;
+}
+
+p {
+	text-align: center;
+	padding: 10px;
+
+}
+/*a링크 */
+/*링크 방문전 상태*/
+a:link {
+	color: gainsboro;
+	text-decoration: none;
+}
+/*링크 한번 클릭해서 방문 후 상태*/
+a:visited,a:active{
+	color:gainsboro;
+}
+
+
+
+form {
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+}
+
+
+input,
+button {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border: none;
+	background: transparent;
+}
+
+
+.input {
+	width: 25%;
+	height: 50px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	background-color: #142F43;
+	color: #8EA6B4;
+}
+/*버튼 효과 주기*/
+.button {
+  width: 20%;
+  background-color: #8EA6B4 ;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 30px 2px;
+  margin-bottom: 20;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+ 
+}
+
+.button:hover {
+	opacity: 1;
+	cursor: url(cursor.png) 20 30;
+	}
+	
+.button2 {
+  width: 10%;
+  background-color: #8EA6B4 ;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 30px 2px;
+  margin-bottom: 20;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+ 
+}
+
+.button2:hover {
+	opacity: 1;
+	cursor: url(cursor.png) 20 30;
+	}		
+	
+.button3 {
+  width: 5%;
+  background-color: #8EA6B4 ;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 10px;
+  margin: 30px 2px;
+  margin-bottom: 20;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+ 
+}
+
+.button3:hover {
+	opacity: 1;
+	cursor: url(cursor.png) 20 30;
+	}		
+
+/*폰트 사이즈*/
+
+.small-font{
+	font-size : 1.2em;
+	}
+.medium-font{
+	font-size : 1.6em;
+	}
+.large-font{
+	font-size : 1.9em;
+	}
+
+/*정렬*/
+
+.align-center{
+	text-align:center;
+}
+
+.align-left{
+	text-align:center;
+}
+
+.align-right{
+	text-align:right;
+}
+
+/*패딩*/
+.px-1{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.px-2{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.px-3{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.px-4{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.w{
+
+	margin:5%;
+	padding: 10px;
+}
+
+/* 홈버튼*/
+.home {
+	background-color: #164863;
+	color:white ;
+	font-size: 12px;
+	padding: 15px;
+}
+
+/* 테이블 */
+.table{
+	width: 100%;
+	margin: auto;	
+}
+
+/*영역*/
+.container {
+	max-width: 960px;
+	margin : auto;
+}
+
+/*색상조합*/
+.white-background {
+	color:  #537188;
+	background-color: #ADC4CE;
+	border : 0;
+	width:100% ;
+}
+
+/*테이블 조합*/
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+  margin: 1rem auto;
+  border-bottom: 1px solid #ddd;
+ 
+}
+
+/* 테이블 행 */
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+
+  color: #ddd;
+}
+
+/* 테이블 올렸을 때 */
+tbody tr:hover {
+  color: #d3d3d3;
+  background-color:#445069; 
+  opacity : 3.0;
+  cursor: pointer;
+}
+
+/* 테이블 비율 */
+th:nth-child(1),
+td:nth-child(1) {
+  width: 10%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 25%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 20%;
+}
+th:nth-child(4),
+td:nth-child(4) {
+  width: 20%;
+}
+th:nth-child(5),
+td:nth-child(5) {
+  width: 25%;
+}
+/* 체크박스 모양*/
+input[type="checkbox"]{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border:3px solid #164863;
+        position: relative;
+        content:'✔';
+        font-size: 25px;
+        text-align: center;
+      }
+
+/*select inputtype*/
+.form-container select,date {
+  background:#5C7893;
+  padding: 0.4rem;
+  margin: 0 0.2rem;
+  border: 0;
+  border-radius: 0.3rem;
+  font-size: 1.0rem;
+  color:#F1F0E8;
+  
+}      
